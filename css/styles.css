@@ -148,6 +148,15 @@ ul {
   margin-right: 10px;
 }
 
+.link-color-change {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-color-change:hover,
+.link-color-change:focus {
+  color: var(--navigation-color);
+}
+
 .navigation-link-main:hover,
 .navigation-link-main:focus {
   color: var(--navigation-color);
